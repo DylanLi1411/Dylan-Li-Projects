@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\alecl\OneDrive\Desktop\ESE224_Final\LibrarySystem\LibrarySystem\main.cpp(190): warning C4715: 'user_authentication<User>': not all control paths return a value
+  LibrarySystem.vcxproj -> C:\Users\alecl\OneDrive\Desktop\ESE224_Final\LibrarySystem\x64\Debug\LibrarySystem.exe
