@@ -1,0 +1,100 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work Project_Design -2008  $dsn/src/Instruction_Buffer.vhd $dsn/src/IF_ID_reg.vhd $dsn/src/Register_File.vhd $dsn/src/ID_EX_reg.vhd $dsn/src/Forwarding_Unit.vhd $dsn/src/Forwarding_Muxes.vhd $dsn/src/Multimedia_ALU.vhd $dsn/src/EX_WB_reg.vhd $dsn/src/Pipelined_SIMD_Multimedia_Unit.vhd $dsn/src/ALU_tb.vhd $dsn/src/Final_tb.vhd
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/Instruction_Buffer.vhd
+# Compile Entity "Instruction_Buffer"
+# Compile Architecture "Behavioral" of Entity "Instruction_Buffer"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/IF_ID_reg.vhd
+# Compile Entity "IF_ID_reg"
+# Compile Architecture "Behavioral" of Entity "IF_ID_reg"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/Register_File.vhd
+# Compile Entity "Register_File"
+# Compile Architecture "Behavioral" of Entity "Register_File"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/ID_EX_reg.vhd
+# Compile Entity "ID_EX_reg"
+# Compile Architecture "Behavioral" of Entity "ID_EX_reg"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/Forwarding_Unit.vhd
+# Compile Entity "Forwarding_Unit"
+# Compile Architecture "Behavioral" of Entity "Forwarding_Unit"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/Forwarding_Muxes.vhd
+# Compile Entity "Forwarding_Muxes"
+# Compile Architecture "Behavioral" of Entity "Forwarding_Muxes"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/Multimedia_ALU.vhd
+# Compile Entity "Multimedia_ALU"
+# Compile Architecture "Behavioral" of Entity "Multimedia_ALU"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/EX_WB_reg.vhd
+# Compile Entity "EX_WB_reg"
+# Compile Architecture "Behavioral" of Entity "EX_WB_reg"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/Pipelined_SIMD_Multimedia_Unit.vhd
+# Compile Entity "Pipelined_Multimedia_Unit"
+# Compile Architecture "Structural" of Entity "Pipelined_Multimedia_Unit"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/ALU_tb.vhd
+# Compile Entity "ALU_tb"
+# Compile Architecture "testbench" of Entity "ALU_tb"
+# File: C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/Final_tb.vhd
+# Compile Entity "Final_tb"
+# Compile Architecture "Behavioral" of Entity "Final_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+asim -O5 +access +r +m+Final_tb Final_tb Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6810 kB (elbread=427 elab2=6211 kernel=172 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\dylan\Documents\Aldec\ESE 345\Project\Project_Design\src\wave.asdb
+#  3:11 PM, Monday, December 4, 2023
+#  Simulation has been initialized
+# VSIM: 21 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/dylan/Documents/Aldec/ESE 345/Project/Project_Design/src/wave.asdb'.
+run
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 5 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 5 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 5 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 15 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Write.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 15 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 15 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 15 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Read.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 25 ns,  Iteration: 1,  Instance: /Final_tb/UUT/RegFile,  Process: Write.
+# EXECUTION:: NOTE   : Simulation was successful.
+# EXECUTION:: Time: 705 ns,  Iteration: 0,  Instance: /Final_tb,  Process: clock.
+# RUNTIME: Info: RUNTIME_0142 Final_tb.vhd (187): finish called.
+# KERNEL: Time: 705 ns,  Iteration: 0,  Instance: /Final_tb,  Process: clock.
+# KERNEL: stopped at time: 705 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.

@@ -1,0 +1,72 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Project_Design
+[Library]
+Project_Design=.\Project_Design\Project_Design.lib
+[$LibMap$]
+Project_Design=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\dylan\Documents\Aldec\ESE 345\Project\Project_Design\src
+[Files]
+/Instruction_Buffer.vhd=-1
+/IF_ID_reg.vhd=-1
+/Register_File.vhd=-1
+/ID_EX_reg.vhd=-1
+/Forwarding_Unit.vhd=-1
+/Forwarding_Muxes.vhd=-1
+/Multimedia_ALU.vhd=-1
+/EX_WB_reg.vhd=-1
+/Pipelined_SIMD_Multimedia_Unit.vhd=-1
+/ALU_tb.vhd=-1
+/Final_tb.vhd=-1
+/Assembly_Instructions.txt=-1
+/Binary_Instructions.txt=-1
+/Expected_Results.txt=-1
+/..\..\..\..\ESE345\Project\Project_Design\src\untitled.asdb=-1
+/..\..\..\..\ESE345\Project\Project_Design\src\untitled.awc=-1
+[Files.Data]
+.\src\Instruction_Buffer.vhd=VHDL Source Code
+.\src\IF_ID_reg.vhd=VHDL Source Code
+.\src\Register_File.vhd=VHDL Source Code
+.\src\ID_EX_reg.vhd=VHDL Source Code
+.\src\Forwarding_Unit.vhd=VHDL Source Code
+.\src\Forwarding_Muxes.vhd=VHDL Source Code
+.\src\Multimedia_ALU.vhd=VHDL Source Code
+.\src\EX_WB_reg.vhd=VHDL Source Code
+.\src\Pipelined_SIMD_Multimedia_Unit.vhd=VHDL Source Code
+.\src\ALU_tb.vhd=VHDL Source Code
+.\src\Final_tb.vhd=VHDL Source Code
+.\src\Assembly_Instructions.txt=Text File
+.\src\Binary_Instructions.txt=Text File
+.\src\Expected_Results.txt=Text File
+.\..\..\..\ESE345\Project\Project_Design\src\untitled.asdb=Accelerated Waveform File
+.\..\..\..\ESE345\Project\Project_Design\src\untitled.awc=Accelerated Waveform Configuration
+[HierarchyViewer]
+HierarchyInformation=final_tb|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=

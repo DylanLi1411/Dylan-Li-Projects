@@ -1,0 +1,44 @@
+Active-HDL 13.0.376.8320 2023-12-04 15:11:43
+
+Elaboration top modules:
+Architecture                  Behavioral(Final_tb)
+
+
+-------------------------------------------------------------------------------------------------------------------
+Entity                    | Architecture | Library        | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------------
+Final_tb                  | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Pipelined_Multimedia_Unit | Structural   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Instruction_Buffer        | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+IF_ID_reg                 | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Register_File             | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+ID_EX_reg                 | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Forwarding_Muxes          | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Multimedia_ALU            | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+EX_WB_reg                 | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Forwarding_Unit           | Behavioral   | project_design |      | 13.0.376.8320 (Windows64) | -dbg -2008
+-------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------
+VHDL Package                             | Library        | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------------------------
+standard                                 | std            |      |                           | <unavailable>
+TEXTIO                                   | std            |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                           | ieee           |      | 13.0.376.8320 (Windows64) |  -2008
+NUMERIC_STD                              | ieee           |      | 13.0.376.8320 (Windows64) |  -2008
+ENV                                      | std            |      | 13.0.376.8320 (Windows64) |  -2019
+-------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------
+Library                                  | Comment
+-------------------------------------------------------------------------------------------------------------------
+ieee                                     | Standard IEEE packages library
+project_design                           | None
+std                                      | Standard VHDL library
+-------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+Final_tb Final_tb Behavioral
+
+
+The performance of simulation is reduced. Version Student Edition

@@ -1,0 +1,13 @@
+i<>.\src\Multimedia_ALU.vhd
+i<>.\src\Instruction Buffer.vhd
+i<>.\src\Project_tb.vhd
+i<>.\src\ALU_tb.vhd
+i<>.\src\Instruction_Buffer.vhd
+i<>.\src\Pipelined_SIMD_Multimedia_Unit.vhd
+i<>.\src\Register_File.vhd
+i<>.\src\IF_ID_reg.vhd
+i<>.\src\ID_EX_reg.vhd
+i<>.\src\EX_WB_reg.vhd
+i<>.\src\Forwarding_Muxes.vhd
+i<>.\src\Forwarding_Unit.vhd
+i<>.\src\Final_tb.vhd
