@@ -1,1 +1,1 @@
-This repository contains some of the projects I have done during my time in Stony Brook University.
+Projects I have done while in Stony Brook University.
